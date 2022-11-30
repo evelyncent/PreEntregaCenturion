@@ -1,0 +1,33 @@
+.nav{
+  
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+  
+  
+}
+.menu{
+    display:flex;
+    
+  }
+  .saludo{
+    color:red;
+    font-size: 40px;
+    text-align: center;
+  }
+  .Numero{
+    margin-left: 20px;
+  }
+  .list{
+    display: inline;
+    list-style: none;
+    color:black;
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    margin: -0.2em;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .list:hover{
+    background-color:blueviolet;
+  }
