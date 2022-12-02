@@ -31,3 +31,17 @@
   .list:hover{
     background-color:blueviolet;
   }
+
+  .Titulo{
+   
+    display: flex;
+     
+ 
+     margin-top: 25px;
+     color: blueviolet;
+     border-style: double;
+     font-weight: 5px;
+     font-size: medium;
+     
+ 
+ }

@@ -1,10 +1,12 @@
 import React from 'react'
-import NavBar from '../NavBar/NavBar'
 
-export default function ItemListContainer() {
-    let greeting='Bienvenido'
-   
-  return (
-    <div className="saludo">{greeting}</div>
-  )
+
+
+const ItemListContainer =({greeting})=> {
+return(
+  <div >
+    <h2 className='saludo' >{greeting}</h2>
+  </div>
+)
 }
+export default ItemListContainer

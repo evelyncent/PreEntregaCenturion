@@ -6,6 +6,8 @@ const NavBar = () => {
   return (
     <>
     <div className="nav">
+    <p className='Titulo'>Tienda TV</p>
+
       <ul className="menu">
         <li className="list">Peliculas</li>
         <li className="list">Entretenimiento</li>
